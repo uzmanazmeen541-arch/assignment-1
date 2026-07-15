@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Class 1 - All Assignments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DOM Class 1 - Assignments</h1>
+    
+    <div class="nav-buttons">
+        <button onclick="showAssignment(1)" class="active">Assignment 1: Greeting</button>
+        <button onclick="showAssignment(2)">Assignment 2: To-Do List</button>
+        <button onclick="showAssignment(3)">Assignment 3: Gallery</button>
+        <button onclick="showAssignment(4)">Assignment 4: Books</button>
+        <button onclick="showAssignment(5)">Assignment 5: Table</button>
+    </div>
+
+    <!-- Assignment 1: Personal Greeting Page -->
+    <div id="assignment1" class="assignment active">
+        <h2>Assignment 1: Personal Greeting Page</h2>
+        <h2 id="greeting">Hi I'm Uzma Nazmeen!</h2>
+        <p id="intro">This is my first DOM project</p>
+    </div>
+
+    <!-- Assignment 2: Style Your To-Do List -->
+    <div id="assignment2" class="assignment">
+        <h2>Assignment 2: Style Your To-Do List</h2>
+        <ul>
+            <li class="task">Task 1</li>
+            <li class="task">Task 2</li>
+            <li class="task">Task 3</li>
+            <li class="task">Task 4</li>
+        </ul>
+    </div>
+
+    <!-- Assignment 3: Image Gallery Caption Switch -->
+    <div id="assignment3" class="assignment">
+        <h2>Assignment 3: Image Gallery Caption Switch</h2>
+        <img id="mainImage" src="img1.jpg" alt="Image 1" width="300">
+        <p id="caption">This is image 1!</p>
+    </div>
+
+    <!-- Assignment 4: List of Favorite Books -->
+    <div id="assignment4" class="assignment">
+        <h2>Assignment 4: List of Favorite Books</h2>
+        <ul id="bookList"></ul>
+    </div>
+
+    <!-- Assignment 5: Multiplication Table Generator -->
+    <div id="assignment5" class="assignment">
+        <h2>Assignment 5: Multiplication Table Generator</h2>
+        <table id="multiTable"></table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
